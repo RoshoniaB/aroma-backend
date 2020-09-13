@@ -1,0 +1,3 @@
+CREATE DATABASE aroma;
+CREATE USER aromauser WITH PASSWORD 'aroma';
+GRANT ALL PRIVILEGES ON DATABASE aroma TO aromauser;
