@@ -2,7 +2,7 @@ from django.db import models
 import uuid
 
 class Wine(models.Model):
-    brand_name = models.CharField(max_length=100)
+    brand_name = models.CharField(max_length=500)
     type_name = models.CharField(max_length=100)
     wine_type= models.CharField(max_length=100)
     location = models.CharField(max_length=100)
