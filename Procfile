@@ -1,1 +1,1 @@
-web: gunicorn aroma-backend.wsgi
+web: gunicorn aroma_backend.wsgi
